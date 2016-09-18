@@ -6,12 +6,15 @@
 		<link rel="stylesheet" href="styles.css">
 		<script src="processing.js"></script>
     <style>
+      body{
+        background-color: black;
+      }
         h1{
           font-family: 'Muli',sans-serif;
           margin-top:90px;
           font-size: 70px;
           margin-left:30px;
-          color: black;
+          color: white;
         }
         li{
           font-family: 'Muli',sans-serif;
@@ -54,10 +57,10 @@
         .projectimgs{
           margin-left: 150px;
         }
-        .projectimgs img{
+        .row img{
 
         }
-        .projectimgs img:hover {
+        .row img:hover {
           position:relative;
           top: 0px;
           bottom: 0px;
@@ -66,10 +69,7 @@
           display:block;
           z-index:999;
         }
-        #auxplorer{
-          border: 1px solid grey;
-          padding: 50px;
-        }
+
     </style>
 
 
@@ -84,8 +84,15 @@
 
     <h1> PROJECTS </h1>
 
-    <div class= "projectimgs">
-      <img id ="auxplorer" alt="auxplorer" src="boatlogo.png"  height: 150px; width: 200px;>
+    <div class= "row">
+      <div class= "col-md-2">
+        <img id ="auxplorer" alt="auxplorer" src="boatlogo.png"  height= "150px" width="200px">
+        <b> AUXPLORER </b>
+      <br> Exploring the options for your aux cord. A music finding, not a music streaming platform. A way for users to interact, share and reccomend music
+      <img src="auxplorerim.png" height="100px" width="auto">
+      <img src="auxlogin.png" height="100px" width="auto"> 
+    </div>
 
+      </div>
     </div>
   </head>
